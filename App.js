@@ -27,18 +27,17 @@ export default function Tela() {
       {/* PARTE FIXA */}
       <View style={styles.fixedArea}>
         
-        <View style={styles.card}>
+        <TouchableOpacity style={styles.greycard}>
           <Text>📄 Ver carteirinha</Text>
-        </View>
+        </TouchableOpacity>
 
-        <View style={styles.card}>
+        <TouchableOpacity style={styles.bluecard}>
           <Text>👥 Rede Amiga</Text>
-        </View>
+        </TouchableOpacity>
 
-        {/* ⭐ AGORA FIXO */}
-        <View style={styles.yellowCard}>
+        <TouchableOpacity style={styles.yellowCard}>
           <Text>⭐ DarLife Plus (Em breve)</Text>
-        </View>
+        </TouchableOpacity>
       </View>
 
       {/* SCROLL (COMEÇA DEPOIS DO AMARELO) */}
